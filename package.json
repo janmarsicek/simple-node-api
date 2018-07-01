@@ -1,0 +1,11 @@
+{
+  "name": "api-tutorial",
+  "version": "1.0.0",
+  "description": "Simple node.js api tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC"
+}
