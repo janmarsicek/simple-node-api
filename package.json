@@ -2,10 +2,18 @@
   "name": "api-tutorial",
   "version": "1.0.0",
   "description": "Simple node.js api tutorial",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "test"
+    "dev": "nodemon server.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongodb": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
 }
